@@ -1,0 +1,13 @@
+{
+  "name": "Spotify No Picture",
+  "description": "Disable album art and reduce heading opacity in Spotify Web Player",
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://open.spotify.com/*"],
+      "run_at": "document_idle",
+      "css": ["artzilla.css"]
+    }
+  ]
+}

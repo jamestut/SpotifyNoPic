@@ -1,0 +1,15 @@
+h1, h2 {
+  opacity: 10%;
+}
+
+h1 {
+  font-size: 100% !important;
+}
+
+img {
+  visibility: hidden;
+}
+
+div {
+  --card-color: black !important;
+}
